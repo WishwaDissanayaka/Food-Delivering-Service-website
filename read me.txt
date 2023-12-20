@@ -1,0 +1,7 @@
+* index.html is a main page.
+* Add to cart and See cart Options are not to set.
+
+A.J.M.D.W.S. Dissanayaka
+ITT/2019/032
+0989
+Web technology-Assignment 2

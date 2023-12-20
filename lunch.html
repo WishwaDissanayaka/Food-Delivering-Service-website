@@ -1,0 +1,256 @@
+<html>
+    <head>
+        <title>wishFood_Lanka</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+<div class="fixednavbar">    
+<!--Home , contact us, abouth us, loging, reviews title bar-->
+<div class="mainManu"> 
+    <table class="menuTable">
+        <tr>
+            <td class="logoTd"> <a href="index.html"><img src="images/logo.jpg" class="logoImage"           title="Home Page"></a></td>
+            <td style="color: blac">_______</td>
+            <td style="color: blac">_______</td>
+            <td class="nav-links">
+                <center>
+                <select name="title" id="title" class="titleMenu" onchange="location = this.value;">
+                    <option >                           Menu    </option>
+                    <option value="index.html">        All        </option>
+                    <option value="brunch.html">       Brunch     </option>
+                    <option value="lunch.html">        Lunch      </option>
+                    <option value="chinese.html">      Chinese    </option>
+                    <option value="italian.html">      Italian    </option>
+                    <option value="bbq.html">          BBQ        </option>
+                    <option value="drinks.html">       Drinks     </option>
+                </select></center>
+            </td>
+            <td class="nav-links"><center><a href="about us.html">   About Us</a></center> </td>
+            <td class="nav-links"><center> <a href="contact us.html">   Contact Us  </a></center> </td>
+            <td class="nav-links"><center> <a href="gallery.html">  Gallery</a> </center> </td>
+        </tr>
+    </table>
+</div>
+    
+</div>
+<div class="bodyBox">
+    
+<!--Cover 4to and title-->
+<div class="otherpagemainCover"> 
+    <p class="header">D.L Food Delivery Service</p>
+    <p class="headFooter"> Sri Lankan Fast and Safe Food  Delivery Service</p>
+</div><br>
+    
+<!-- catagories-->
+<div class="foodCatagory">
+    <center>
+        <table class="catagoryTable">
+            <tr>
+                <th> <input type="button" value="ALL" class="catagorybutton" onclick="document.location='index.html'"> </th>
+                <th> <input type="button" value="BRUNCH" class="catagorybutton"onclick="document.location='brunch.html'"> </th>
+                <th> <input type="button" value="LUNCH" class="catagorybutton" style="background-color: #f34d22"> </th>
+                <th> <input type="button" value="CHINESE" class="catagorybutton"onclick="document.location='chinese.html'"> </th>
+                <th> <input type="button" value="ITALIAN" class="catagorybutton"onclick="document.location='italian.html'"> </th>
+                <th> <input type="button" value="BBQ" class="catagorybutton"onclick="document.location='bbq.html'"> </th>
+                <th> <input type="button" value="DRINKS" class="catagorybutton"onclick="document.location='drinks.html'"> </th>
+            </tr>
+        </table>
+    </center>
+</div> <br><br>
+
+<form action="mailto:wishwa916@gmail.com?subject=This is Your Order Details  (Just Click to Send Button)" method="post" enctype="text/plain">
+    
+<!--food items-->
+<div class="foodItems">
+    <center>
+        <table class="itemsTable">
+<tr>
+            <!-- 5 Steak and Eggs -->
+        <td class="itemTD">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/5.jpg" class="itemImage">
+                    </div>
+                    <div class="flip-card-back"><br>
+                        <p><br>6-ounce sirloin steak topped with sunny side eggs and a foie gras potato hash</p>
+                </div>
+                </div>
+            </div>
+            <center>
+                <table>
+                    <tr>
+                        <td class="itemName" title="Name of This food">Steak and Eggs<br></td>
+                    </tr>
+                    <tr>
+                        <td class="itemprice" title="Buy Now This Food">RS. 300.00</td>
+                    </tr>
+                    <tr>
+                        <td class="itemq" title="Quantity you want">Quantity <input type="number" id="quantity" name="FOOD Code 005" min="0" max="100" value="0"></td>
+                    </tr>
+                </table>
+            </center>
+        </td>
+                
+<!-- 6 Red Borscht -->                 
+        <td class="itemTD">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/6.jpg" class="itemImage">
+                </div>
+                <div class="flip-card-back"><br>
+                    <p>Pickled red beets, seasonal vegetables and dill in a short rib and bacon broth served with a braised beef pirozhok or boiled potato and sour cream</p>
+                </div>
+            </div>
+            </div>
+            <center>
+                <table>
+                    <tr>
+                        <td class="itemName" title="Name of This food">Red Borscht<br></td>
+                    </tr>
+                    <tr>
+                        <td class="itemprice" title="Buy Now This Food">RS. 300.00</td>
+                    </tr>
+                    <tr>
+                        <td class="itemq" title="Quantity you want">Quantity <input type="number" id="quantity" name="FOOD Code 006" min="0" max="100" value="0"></td>
+                    </tr>
+                </table>
+            </center>
+        </td>
+                 
+<!-- 7 Blinchik-->                 
+        <td class="itemTD">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/7.jpg" class="itemImage">
+                    </div>
+                    <div class="flip-card-back"><br>
+                        <p>Tasting of three mini “pojarski” burgers with herb fries. Salmon with avocado, tomato and cucumber with rémoulade and pickled onions.</p>
+                    </div>
+                </div>
+            </div>
+            <center>
+                <table>
+                    <tr>
+                        <td class="itemName" title="Name of This food">Blinchik<br></td>
+                    </tr>
+                    <tr>
+                        <td class="itemprice" title="Buy Now This Food">RS. 400.00</td>
+                    </tr>
+                    <tr>
+                        <td class="itemq" title="Quantity you want">Quantity <input type="number" id="quantity" name="FOOD Code 007" min="0" max="100" value="0"></td>
+                    </tr>
+                </table>
+            </center>
+        </td>
+       
+<!-- 8 Roasted Roots Salad -->                 
+        <td class="itemTD">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/8.jpg" class="itemImage"></div>
+                    <div class="flip-card-back">
+                        <p>   Roasted Seasonal Hudson Valley Root Vegetables with EVOO and Fresh Herbs,Tricolor Quinoa, Watermelon       Radish Slaw, Mixed Greens, Pomegranate Goat Cheese Dressing</p>
+                    </div>
+                </div>
+            </div>
+            <center>
+                <table>
+                    <tr>
+                        <td class="itemName" title="Name of This food">Roasted Roots Salad<br></td>
+                    </tr>
+                    <tr>
+                        <td class="itemprice" title="Buy Now This Food">RS. 500.00</td>
+                    </tr>
+                    <tr>
+                        <td class="itemq" title="Quantity you want">Quantity <input type="number" id="quantity" name="FOOD Code 008" min="0" max="100" value="0"></td>
+                    </tr>
+                </table>
+            </center>
+        </td>
+    </tr>
+</table>
+        
+<br>
+<hr>
+<h2>Receiver's Details</h2>
+            
+<div class="orderdetaildiv"><br>
+    <table>
+        <tr>
+            <td>Name:<br></td>
+            <td><input type="text" name="Name" placeholder="Ex : Jone"></td>
+        </tr><tr><td><br></td></tr><tr>
+            <td>Contact Number:<br></td>
+            <td><input type="text" name="Number" placeholder="Ex : 071-XXX XX XX"></td>
+        </tr><tr><td><br></td></tr><tr>
+            <td>Address:<br></td>
+            <td><input type="text" name="Address line 1" placeholder="Address Line 1"></td>
+        </tr><tr><td></td>
+            <td><input type="text" name="Address line 2" placeholder="Address Line 2"></td>
+        </tr><tr><td></td>
+            <td><input type="text" name="Address line 3" placeholder="Address Line 3"></td>
+        </tr><tr><td></td>
+            <td><input type="text" name="Address line 4" placeholder="Address Line 4"></td>
+        </tr><tr><td><br></td></tr><tr>
+            <td>Date to be Delivered:</td>
+            <td><input type="date" id="Date" name="Date"  ></td>
+        </tr><tr><td><br></td></tr><tr>
+            <td>Time to be Deliverd:</td>
+            <td><input type="time" id="Time" name="Time"></td>
+        </tr><tr><td><br></td></tr><tr>
+            <td>Special Additions:</td>
+            <td rowspan="4"><textarea id="additions" name="additions" rows="3" cols="21"></textarea></td>
+        </tr><tr><td><br></td></tr><tr><td><br></td></tr></table><br>
+            <input type="submit" value="ORDER NOW"  class="orderbutton"> <input type="reset" value="  CLEAR ALL  " class="orderbutton"><br></div>
+    </center></div></form>
+    
+<!--footer detail bar, opening time and some details-->    
+<br><br><br>
+<div class="footer">
+    <center><hr style="width: 100%;color: red">
+    <h3>Enjoy Thoughtful And Excellent Facilities</h3>
+    <h6>Unwind, Unfurl, Relax And Regroup Your Energy At This Serene And Natural Setting</h6>
+    <hr style="width: 70%">
+    <table>
+        <tr>
+            <td>
+                <center>
+                About Us<br><br>
+                Our core values make us who we are.<br>
+                As we change and grow, the beliefs that<br>
+                are mostimportant to us stay the same.<br></center>
+            </td>
+            <td>
+                <center>
+                <h4>Openings Hours<br><br>
+                Monday to Sunday : 7.00am to 11.00pm<br>
+                Delivery within Buttala Town<br>
+                Delivery Charge Rs.200<br></h4></center>
+            </td>
+            <td>
+                <center>
+                Gallery<br><br>
+                    <table class="mainpagegallery">
+                    <tr>
+                    <td><img src="images/10.jpg" class="mainpagegalleryimage"></td>
+                    <td><img src="images/7.jpg" class="mainpagegalleryimage"></td>
+                    <td ><img src="images/1.jpg" class="mainpagegalleryimage"></td>
+                    <td><img src="images/5.jpg" class="mainpagegalleryimage"></td></tr><tr>
+                    <td ><img src="images/c3.jpg" class="mainpagegalleryimage"></td>
+                    <td><img src="images/c7.jpg" class="mainpagegalleryimage"></td>
+                    <td colspan="2"><a href="gallery.html">See More...</a></td>
+                    </tr>
+                    </table></center>
+                    <br>
+            </td>
+        </tr>
+        </table>
+                
+    <hr>
+        <font style="font-family:serif">&copy; D.wishwa.All rights reserved</font></center></div></div>
+</body>
+</html>
